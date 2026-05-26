@@ -1,87 +1,87 @@
 # IncluJus AI
 
-O IncluJus AI e um projeto academico e tecnico voltado a ampliar a acessibilidade da comunicacao judicial e institucional por meio de inteligencia artificial com revisao humana.
+O IncluJus AI é um projeto acadêmico e técnico voltado a ampliar a acessibilidade da comunicação judicial e institucional por meio de inteligência artificial com revisão humana.
 
-A proposta e analisar documentos, comunicados, orientacoes e outros conteudos, identificar barreiras de comunicacao e gerar versoes acessiveis complementares para diferentes perfis de acessibilidade, sem substituir a validacao institucional.
+A proposta é analisar documentos, comunicados, orientações e outros conteúdos, identificar barreiras de comunicação e gerar versões acessíveis complementares para diferentes perfis de acessibilidade, sem substituir a validação institucional.
 
 ## Posicionamento do Projeto
 
-Este repositorio foi estruturado para apoiar:
+Este repositório foi estruturado para apoiar:
 
-- o desenvolvimento academico de um projeto formal de ensino superior;
-- o levantamento de requisitos e a validacao tecnica de uma solucao de acessibilidade;
-- a construcao incremental de um MVP com base arquitetural real;
-- eventual apresentacao institucional futura, se houver contexto adequado.
+- o desenvolvimento acadêmico de um projeto formal de ensino superior;
+- o levantamento de requisitos e a validação técnica de uma solução de acessibilidade;
+- a construção incremental de um MVP com base arquitetural real;
+- eventual apresentação institucional futura, se houver contexto adequado.
 
-O projeto nao presume adocao oficial por tribunal ou orgao publico. Seu objetivo e investigar, prototipar e validar uma abordagem tecnicamente responsavel para acessibilidade digital e comunicacional no contexto da Justica.
+O projeto não presume adoção oficial por tribunal ou órgão público. Seu objetivo é investigar, prototipar e validar uma abordagem tecnicamente responsável para acessibilidade digital e comunicacional no contexto da Justiça.
 
 ## Problema
 
-Comunicacoes judiciais e institucionais sao frequentemente publicadas em formatos de dificil acesso, navegacao ou compreensao para diferentes perfis de cidadaos, especialmente pessoas com deficiencia, pessoas idosas e pessoas com baixa familiaridade juridica ou digital.
+Comunicações judiciais e institucionais são frequentemente publicadas em formatos de difícil acesso, navegação ou compreensão para diferentes perfis de cidadãos, especialmente pessoas com deficiência, pessoas idosas e pessoas com baixa familiaridade jurídica ou digital.
 
-O problema central enfrentado por este projeto e a ausencia de uma camada tecnologica estruturada capaz de:
+O problema central enfrentado por este projeto é a ausência de uma camada tecnológica estruturada capaz de:
 
-- identificar barreiras de acessibilidade em conteudos oficiais;
-- adaptar o mesmo conteudo para diferentes formas de percepcao, compreensao e interacao;
-- preservar o significado original da comunicacao;
-- apoiar revisao humana antes de qualquer uso ou publicacao.
+- identificar barreiras de acessibilidade em conteúdos oficiais;
+- adaptar o mesmo conteúdo para diferentes formas de percepção, compreensão e interação;
+- preservar o significado original da comunicação;
+- apoiar revisão humana antes de qualquer uso ou publicação.
 
 ## Objetivo Geral
 
-Desenvolver um sistema modular que auxilie na analise e na geracao de versoes acessiveis de comunicacoes judiciais e institucionais, utilizando inteligencia artificial como camada de apoio para acessibilidade, simplificacao e orientacao, com validacao humana e saidas rastreaveis.
+Desenvolver um sistema modular que auxilie na análise e na geração de versões acessíveis de comunicações judiciais e institucionais, utilizando inteligência artificial como camada de apoio para acessibilidade, simplificação e orientação, com validação humana e saídas rastreáveis.
 
 ## Objetivos Especificos
 
-- identificar barreiras de comunicacao em textos, PDFs, arquivos escaneados, imagens e conteudos audiovisuais;
-- gerar versoes acessiveis voltadas a diferentes perfis de usuarios;
-- apoiar a adaptacao de conteudo juridico e procedimental para linguagem simples;
-- produzir saidas complementares como texto descritivo, orientacao estruturada, transcricao e roteiros de acessibilidade;
-- definir um modelo de classificacao para um selo de acessibilidade com base em criterios objetivos;
-- preservar auditabilidade, fluxo de revisao e governanca institucional sobre o conteudo gerado.
+- identificar barreiras de comunicação em textos, PDFs, arquivos escaneados, imagens e conteúdos audiovisuais;
+- gerar versões acessíveis voltadas a diferentes perfis de usuários;
+- apoiar a adaptação de conteúdo jurídico e procedimental para linguagem simples;
+- produzir saídas complementares como texto descritivo, orientação estruturada, transcrição e roteiros de acessibilidade;
+- definir um modelo de classificação para um selo de acessibilidade com base em critérios objetivos;
+- preservar auditabilidade, fluxo de revisão e governança institucional sobre o conteúdo gerado.
 
 ## Escopo Inicial do MVP
 
-O primeiro MVP sera concentrado em um fluxo principal: receber uma comunicacao institucional em texto ou PDF e produzir saidas acessiveis complementares para revisao.
+O primeiro MVP será concentrado em um fluxo principal: receber uma comunicação institucional em texto ou PDF e produzir saídas acessíveis complementares para revisão.
 
 Incluido no MVP:
 
 - envio de documento em PDF textual ou texto simples;
-- sinalizacao de OCR para arquivos escaneados ou baseados em imagem;
-- versao em linguagem simples do conteudo;
-- passo a passo orientado a acao do cidadao;
+- sinalização de OCR para arquivos escaneados ou baseados em imagem;
+- versão em linguagem simples do conteúdo;
+- passo a passo orientado à ação do cidadão;
 - resumo de acessibilidade com foco inicial em barreiras visuais e cognitivas;
-- rascunho de pontuacao preliminar para o selo de acessibilidade;
-- interface de revisao humana antes da aprovacao final.
+- rascunho de pontuação preliminar para o selo de acessibilidade;
+- interface de revisão humana antes da aprovação final.
 
 Fora do MVP:
 
-- geracao automatica completa de Libras;
-- interacao por voz em tempo real;
-- integracao direta com sistemas judiciais de producao;
-- publicacao oficial automatica sem aprovacao humana;
-- suporte a interpretacao juridica final ou decisao institucional.
+- geração automática completa de Libras;
+- interação por voz em tempo real;
+- integração direta com sistemas judiciais de produção;
+- publicação oficial automática sem aprovação humana;
+- suporte à interpretação jurídica final ou decisão institucional.
 
 ## Modulos Funcionais
 
-- `IncluTexto`: adaptacao para linguagem simples, resumos e orientacoes por etapas.
-- `IncluVisao`: suporte a estrutura para leitores de tela, descricao de imagens e verificacoes de acessibilidade documental.
-- `IncluLibras`: preparacao de transcricao, legenda e roteiro para fluxos futuros de Libras.
-- `IncluVoz`: apoio a comunicacao escrita e geracao assistida para usuarios com barreiras relacionadas a fala.
-- `Selo Acessivel`: motor de criterios para classificacao de acessibilidade e avaliacao rastreavel.
+- `IncluTexto`: adaptação para linguagem simples, resumos e orientações por etapas.
+- `IncluVisao`: suporte a estrutura para leitores de tela, descrição de imagens e verificações de acessibilidade documental.
+- `IncluLibras`: preparação de transcrição, legenda e roteiro para fluxos futuros de Libras.
+- `IncluVoz`: apoio à comunicação escrita e geração assistida para usuários com barreiras relacionadas à fala.
+- `Selo Acessivel`: motor de critérios para classificação de acessibilidade e avaliação rastreável.
 
 ## Resumo da Arquitetura
 
-A arquitetura tecnica segue uma estrutura modular orientada a servicos:
+A arquitetura técnica segue uma estrutura modular orientada a serviços:
 
 - `frontend`: interface em Next.js + TypeScript para envio, revisao e visualizacao;
-- `backend`: API FastAPI como camada central de validacao, orquestracao, persistencia e classificacao;
-- `worker`: processamento assincrono para OCR, parsing, analise de conteudo e pipelines de geracao;
-- `database`: PostgreSQL para persistencia estruturada;
-- `cache/queue`: Redis para execucao em segundo plano e estado temporario;
+- `backend`: API FastAPI como camada central de validação, orquestração, persistência e classificação;
+- `worker`: processamento assíncrono para OCR, parsing, análise de conteúdo e pipelines de geração;
+- `database`: PostgreSQL para persistência estruturada;
+- `cache/queue`: Redis para execução em segundo plano e estado temporário;
 - `storage`: armazenamento de documentos e artefatos derivados;
-- `ai adapters`: integracoes isoladas para linguagem, OCR, fala e futuros servicos de acessibilidade.
+- `ai adapters`: integrações isoladas para linguagem, OCR, fala e futuros serviços de acessibilidade.
 
-Mais detalhes estao documentados em [docs/architecture.md](docs/architecture.md).
+Mais detalhes estão documentados em [docs/architecture.md](docs/architecture.md).
 
 ## Estrutura do Repositorio
 
@@ -108,13 +108,13 @@ Mais detalhes estao documentados em [docs/architecture.md](docs/architecture.md)
 
 ## Estado Atual
 
-Este repositorio contem, neste momento, a documentacao fundacional e o scaffold inicial do projeto. A proxima fase de implementacao deve priorizar:
+Este repositório contém, neste momento, a documentação fundacional e o scaffold inicial do projeto. A próxima fase de implementação deve priorizar:
 
-1. modelagem de dominio;
-2. definicao dos contratos da API;
-3. desenho do fluxo de revisao;
+1. modelagem de domínio;
+2. definição dos contratos da API;
+3. desenho do fluxo de revisão;
 4. bootstrap do MVP em backend e frontend.
 
 ## Licenca
 
-A definicao de licenca ainda esta pendente.
+Este repositório está licenciado sob a [MIT License](LICENSE).
