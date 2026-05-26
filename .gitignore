@@ -1,0 +1,60 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# FastAPI / backend
+.env
+.env.*
+*.log
+logs/
+tmp/
+temp/
+uploads/
+storage/
+
+# Node / Next.js / frontend
+node_modules/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Banco e ferramentas locais
+*.sqlite3
+*.db
+*.db-journal
+
+# Arquivos de ambiente
+.python-version
+.tool-versions
