@@ -1,5 +1,11 @@
 # Inclus-AI
 
+![status](https://img.shields.io/badge/status-em_desenvolvimento-0a7ea4)
+![fase](https://img.shields.io/badge/fase-estruturacao_inicial-1f6feb)
+![foco](https://img.shields.io/badge/foco-acessibilidade_judicial-1b8a5a)
+![stack](https://img.shields.io/badge/stack-FastAPI%20%7C%20Next.js%20%7C%20PostgreSQL-f39c12)
+![licenca](https://img.shields.io/badge/licenca-MIT-6f42c1)
+
 O IncluJus AI é um projeto acadêmico e técnico voltado a ampliar a acessibilidade da comunicação judicial e institucional por meio de inteligência artificial com revisão humana.
 
 A proposta é analisar documentos, comunicados, orientações e outros conteúdos, identificar barreiras de comunicação e gerar versões acessíveis complementares para diferentes perfis de acessibilidade, sem substituir a validação institucional.
