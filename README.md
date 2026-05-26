@@ -1,4 +1,4 @@
-# IncluJus AI
+# Inclus-AI
 
 O IncluJus AI é um projeto acadêmico e técnico voltado a ampliar a acessibilidade da comunicação judicial e institucional por meio de inteligência artificial com revisão humana.
 
